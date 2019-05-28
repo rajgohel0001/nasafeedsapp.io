@@ -1,0 +1,91 @@
+.mdc-card {
+  padding: 0px !important;
+}
+
+.container {
+  margin-left: 20px;  
+}
+.title{
+  /*text-align: center;*/
+  font-size: 30px;
+  margin-top: 0;
+}
+.button {
+  background-color:green;
+  border: none;
+  color: white;
+  font-size: 16px;
+  height: 40px;
+  width: 200px;
+}
+.paper{
+  text-align: center;
+}
+
+table{
+  /*border:1px solid;*/
+  border-collapse: collapse;
+}
+td,th{
+ border: 1px solid #dddddd;
+ text-align: left;
+ padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+body{
+  background-image: url(../../images/earth2.png);
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode:overlay;
+}
+.tab{
+  overflow-x:auto;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+/*body{
+  background-color: aliceblue;
+}*/
+.mdc-card p{
+  margin-top: 0 !important;
+  margin-bottom: 20px !important;
+}
+.backgroundimg{
+  background-image: url(../../images/img1.jpeg);
+  margin-bottom: 10px;
+  border-radius: 100px;
+}
+.btn{
+  margin-top: 15px; 
+}
+.bg{
+  background-image: url(../../images/img1.jpeg);
+  width: 100% !important;
+}
+footer div{
+  text-align: center;
+  background-color: #333333;
+  color: #fff;
+}
+.footerlogo{
+  height: 70px;
+  float: left;
+}
+/*.btn{
+  background-color: lightblue;
+}*/
+.card_title h2 {
+    margin: 0;
+    padding: 15px;
+    border-bottom: 1px solid #888;
+    margin-bottom: 20px;
+}
+.jplUrl_link{
+  padding-bottom: 20px;
+  text-align: center;
+}
