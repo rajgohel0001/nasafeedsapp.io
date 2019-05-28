@@ -32,7 +32,9 @@ class apod extends Component{
 		const { isLoaded,array } = this.state;
 		console.log("DATA of apod======>",this.state.array);
 		if (!isLoaded) {
-			return <div>Loading...</div>;
+			return (
+				<center><div class="loader"></div></center>
+				)
 		}
 		else if(isLoaded && array.media_type == "image"){
 			return(

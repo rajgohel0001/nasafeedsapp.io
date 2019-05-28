@@ -5,8 +5,7 @@ import "material-components-web/dist/material-components-web.min.css";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import './home.css';
-import Swal from 'sweetalert2'; 
-
+import Swal from 'sweetalert2';
 var moment = require('moment');
 
 class home extends Component{
@@ -108,7 +107,9 @@ class home extends Component{
 		const { isLoaded,array } = this.state;
 		console.log("DATA of nasa======>",this.state.array, this.state.date);
 		if (!isLoaded) {
-        return <div>Loading...</div>;
+        return (
+          <center><div class="loader"></div></center>
+        )
       }
       else if(isLoaded && this.state.array.element_count!==0){
         return(
@@ -129,7 +130,7 @@ class home extends Component{
           </Button>
           </div>
           </div>
-          <p>Total Objects: {this.state.array.element_count}</p>
+          <p>Near Earth Objects: {this.state.array.element_count}</p>
           <p>Date: {this.state.date}</p>
           <div class="mdc-layout-grid__inner">
           {array.near_earth_objects[this.state.date].map((item,index)=>{
