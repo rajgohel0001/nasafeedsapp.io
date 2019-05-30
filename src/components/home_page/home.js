@@ -37,29 +37,29 @@ class home extends Component{
       fetch("https://api.nasa.gov/neo/rest/v1/feed?start_date="+this.state.date+"&end_date="+this.state.date+"&api_key=xhrfa56HkJT1KaOvi7fCWcN1sCAJM9eyDJp5zWrU")
       .then(res => res.json())
       .then(res => {
-        console.log(res);
+        // console.log(res);
         var data = res;
         this.setState({
           isLoaded: true,
           array: data,
           // list: [...data.near_earth_objects,this.state.list]
         })
-        console.log(this.state.array);
+        // console.log(this.state.array);
         // console.log(this.state.list);
       })
     }
 
     handleChangeEnd(event){  
       this.setState({endValue: event.target.value});
-      console.log("end");
+      // console.log("end");
     }
     dateChange(date){
       this.setState({
         pickerDate: date
       });
-      console.log(this.state.pickerDate);
+      // console.log(this.state.pickerDate);
       var datepicker = moment(this.state.pickerDate).add(1,'days').format("YYYY-MM-DD");
-      console.log(datepicker);
+      // console.log(datepicker);
     }
 
     handleClick(){
@@ -75,7 +75,7 @@ class home extends Component{
            })
           }
           else{  
-          console.log(res);
+          // console.log(res);
           var data = res;
           this.setState({
             isLoaded: true,
@@ -83,10 +83,10 @@ class home extends Component{
             date:this.state.endValue
           })
           }
-          console.log(this.state.array);
+          // console.log(this.state.array);
         // console.log("Date: ",this.state.pickerDate);
       })
-        console.log('success')
+        // console.log('success')
       }
       else if(this.state.endValue == ""){
         Swal.fire({
@@ -105,7 +105,7 @@ class home extends Component{
     }
 	render (){
 		const { isLoaded,array } = this.state;
-		console.log("DATA of nasa======>",this.state.array, this.state.date);
+		// console.log("DATA of nasa======>",this.state.array, this.state.date);
 		if (!isLoaded) {
         return (
           <center><div class="loader"></div></center>

@@ -19,19 +19,19 @@ class viewAll extends Component{
 		fetch("https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=xhrfa56HkJT1KaOvi7fCWcN1sCAJM9eyDJp5zWrU")
 		.then(res => res.json())
 		.then(res => {
-			console.log(res);
+			// console.log(res);
 			var data = res;
 			this.setState({
 				isLoaded: true,
 				array: data
 			})
-			console.log(this.state.array);
+			// console.log(this.state.array);
 		})
 	}
 
 	render (){
 		const { isLoaded,array } = this.state;
-		console.log("DATA of View All page======>",this.state.array);
+		// console.log("DATA of View All page======>",this.state.array);
 		if (!isLoaded) {
 			return (
 				<center><div class="loader"></div></center>
