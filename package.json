@@ -1,4 +1,5 @@
 {
+  "homepage": "https://rajgohel0001.github.io/nasafeedsapp.io/public/index.html",
   "name": "nasa-app",
   "version": "0.1.0",
   "private": true,
@@ -44,7 +45,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -64,6 +67,7 @@
   "devDependencies": {
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
-    "@babel/preset-typescript": "^7.3.3"
+    "@babel/preset-typescript": "^7.3.3",
+    "gh-pages": "^2.0.1"
   }
 }
