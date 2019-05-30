@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "979fe96014f8892cef56ed6fc1d8f6ca",
+    "revision": "85c768851ad99282bd7fb77c5dcb03ac",
     "url": "/nasafeedsapp.io/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nasafeedsapp.io/static/css/2.425d3fdb.chunk.css"
   },
   {
-    "revision": "fcc1202274dc4e25311d",
+    "revision": "f803152eab4d9f141b76",
     "url": "/nasafeedsapp.io/static/css/main.2e82a01e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nasafeedsapp.io/static/js/2.c44cf31d.chunk.js"
   },
   {
-    "revision": "fcc1202274dc4e25311d",
-    "url": "/nasafeedsapp.io/static/js/main.0e309d99.chunk.js"
+    "revision": "f803152eab4d9f141b76",
+    "url": "/nasafeedsapp.io/static/js/main.0571260d.chunk.js"
   },
   {
     "revision": "da2c73df43eb23875464",
