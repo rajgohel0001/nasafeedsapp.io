@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/nasafeedsapp.io/static/css/main.2e82a01e.chunk.css",
+    "main.js": "/nasafeedsapp.io/static/js/main.0e309d99.chunk.js",
+    "main.js.map": "/nasafeedsapp.io/static/js/main.0e309d99.chunk.js.map",
+    "runtime~main.js": "/nasafeedsapp.io/static/js/runtime~main.ef127926.js",
+    "runtime~main.js.map": "/nasafeedsapp.io/static/js/runtime~main.ef127926.js.map",
+    "static/css/2.425d3fdb.chunk.css": "/nasafeedsapp.io/static/css/2.425d3fdb.chunk.css",
+    "static/js/2.c44cf31d.chunk.js": "/nasafeedsapp.io/static/js/2.c44cf31d.chunk.js",
+    "static/js/2.c44cf31d.chunk.js.map": "/nasafeedsapp.io/static/js/2.c44cf31d.chunk.js.map",
+    "index.html": "/nasafeedsapp.io/index.html",
+    "precache-manifest.608e6b913907ebd939a4ba952ac5e4f0.js": "/nasafeedsapp.io/precache-manifest.608e6b913907ebd939a4ba952ac5e4f0.js",
+    "service-worker.js": "/nasafeedsapp.io/service-worker.js",
+    "static/css/2.425d3fdb.chunk.css.map": "/nasafeedsapp.io/static/css/2.425d3fdb.chunk.css.map",
+    "static/css/main.2e82a01e.chunk.css.map": "/nasafeedsapp.io/static/css/main.2e82a01e.chunk.css.map",
+    "static/media/cneos_logo.png": "/nasafeedsapp.io/static/media/cneos_logo.aa9ad394.png",
+    "static/media/home.css": "/nasafeedsapp.io/static/media/earth2.eafbc460.png",
+    "static/media/facebook.png": "/nasafeedsapp.io/static/media/facebook.9d7a50f2.png",
+    "static/media/font-awesome.min.css": "/nasafeedsapp.io/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/instagram.png": "/nasafeedsapp.io/static/media/instagram.751a308e.png",
+    "static/media/nasa-logo.svg": "/nasafeedsapp.io/static/media/nasa-logo.80115d2c.svg"
+  }
+}
