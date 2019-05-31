@@ -23,6 +23,7 @@ h2.heading {
 .apod_image{
 	position: relative;
 	padding-top: 100%;
+	height: 100px
 }
 .apod_image img{
 	position: absolute;
@@ -36,6 +37,7 @@ h2.heading {
 	min-height: 100%;
 	max-height: 100%;
 	object-fit: cover;
+	border-radius: 13px
 }
 #artical_by b{
 	float: right !important;

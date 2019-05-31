@@ -130,8 +130,8 @@ class home extends Component{
           </Button>
           </div>
           </div>
-          <p>Near Earth Objects: {this.state.array.element_count}</p>
-          <p>Date: {this.state.date}</p>
+          <p style={{color: 'white'}}>Near Earth Objects: <span style={{color:'black'}}>{this.state.array.element_count}</span></p>
+          <p style={{color: 'white'}}>Date: <span style={{color:'black'}}>{this.state.date}</span></p>
           <div class="mdc-layout-grid__inner">
           {array.near_earth_objects[this.state.date].map((item,index)=>{
             return(

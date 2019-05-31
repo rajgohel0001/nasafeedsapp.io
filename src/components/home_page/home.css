@@ -80,10 +80,12 @@ footer div{
   background-color: lightblue;
 }*/
 .card_title h2 {
-    margin: 0;
+      margin: 0;
     padding: 15px;
-    border-bottom: 1px solid #888;
     margin-bottom: 20px;
+    background-color: #05144c;
+    color: white;
+    border-radius: 7px 7px 0px 0px;
 }
 .jplUrl_link{
   padding-bottom: 20px;
