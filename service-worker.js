@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nasafeedsapp.io/precache-manifest.d464c35b1d280badf7992d036d854fdd.js"
+  "/nasafeedsapp.io/precache-manifest.e70c2685b14e2f51546acac6cd48b2a6.js"
 );
 
 self.addEventListener('message', (event) => {
