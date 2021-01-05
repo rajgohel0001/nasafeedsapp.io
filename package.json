@@ -20,7 +20,7 @@
     "@material/tab-bar": "^2.2.0",
     "@material/textfield": "^2.1.0",
     "@yazanaabed/react-tabs": "^2.3.6",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "date-fns": "^2.0.0-alpha.27",
     "dayjs": "^1.8.14",
     "font-awesome": "^4.7.0",
